@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NeonCoil</string>
+    <string name="app_subtitle">SNAKE ARENA</string>
+    <string name="cd_skins_button">Open Snake Skins</string>
+    <string name="cd_settings_button">Open Settings</string>
+    <string name="cd_boost_button">Hold to Boost</string>
+    <string name="cd_pause_button">Pause Game</string>
+    <string name="cd_leave_button">Leave Online Match</string>
+    <string name="cd_back_button">Back</string>
+    <string name="cd_joystick">Virtual Steering Joystick</string>
+    <string name="cd_minimap">Arena Minimap</string>
+    <string name="cd_controls_size_slider">Controls Size Slider</string>
+    <string name="cd_hud_size_slider">HUD Size Slider</string>
+</resources>

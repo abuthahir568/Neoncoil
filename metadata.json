@@ -1,0 +1,6 @@
+{
+  "name": "NeonCoil",
+  "description": "NeonCoil: Snake Arena — bright, colorful cartoon snake arena game with offline AI bots, stone-plaque menus, skins, and procedural audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

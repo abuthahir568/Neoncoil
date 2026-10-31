@@ -1,0 +1,25 @@
+{
+  "name": "neoncoil-arena-server",
+  "version": "1.0.0",
+  "description": "Authoritative 20-TPS WebSocket multiplayer server for NeonCoil: Snake Arena",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "dev": "npm run build && node --watch dist/src/index.js",
+    "start": "node dist/src/index.js",
+    "build": "tsc -p tsconfig.json",
+    "loadtest": "npm run build && node dist/tools/loadtest.js"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/ws": "^8.5.13"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
